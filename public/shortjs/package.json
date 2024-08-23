@@ -1,0 +1,27 @@
+{
+  "name": "shortjs",
+  "version": "1.0.0",
+  "description": "A JS Library for Developers",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulHannan08128/ShortJS.git"
+  },
+  "keywords": [
+    "shortcode",
+    "shortjs"
+  ],
+  "author": "Abdul Hannan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbdulHannan08128/ShortJS/issues"
+  },
+  "homepage": "https://github.com/AbdulHannan08128/ShortJS#readme"
+}
