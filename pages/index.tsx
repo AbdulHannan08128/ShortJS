@@ -65,7 +65,7 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="ShortJS"
+        title="Archet.js"
         description="A Lightweight Javascript Library That Makes Your Javascript Code Shorter and Readable"
       />
       <Box>

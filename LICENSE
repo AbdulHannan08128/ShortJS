@@ -4,16 +4,16 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-ShortJS: A Lightweight JavaScript Library
+archetjs: A Lightweight JavaScript Library
 
-ShortJS is a lightweight JavaScript library designed to streamline and simplify code, making development tasks more efficient and concise. Whether you're a seasoned developer or just starting out, ShortJS offers a collection of utility functions and shortcuts to help you write cleaner, more expressive code.
+archetjs is a lightweight JavaScript library designed to streamline and simplify code, making development tasks more efficient and concise. Whether you're a seasoned developer or just starting out, archetjs offers a collection of utility functions and shortcuts to help you write cleaner, more expressive code.
 
-With ShortJS, you can:
+With archetjs, you can:
 
 - Reduce repetitive code by leveraging concise utility functions.
 - Improve readability by abstracting complex logic into simple, reusable snippets.
 - Enhance productivity by speeding up development time with intuitive shortcuts and helpers.
 
-ShortJS is released under the MIT License, allowing developers to use it freely in their projects, whether personal or commercial. By incorporating ShortJS into your codebase, you can optimize your workflow and focus on building great software without sacrificing simplicity or flexibility.
+archetjs is released under the MIT License, allowing developers to use it freely in their projects, whether personal or commercial. By incorporating archetjs into your codebase, you can optimize your workflow and focus on building great software without sacrificing simplicity or flexibility.
 
-Get started with ShortJS today and experience the power of streamlined JavaScript development. Happy coding!
+Get started with archetjs today and experience the power of streamlined JavaScript development. Happy coding!

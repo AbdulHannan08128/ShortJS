@@ -1,4 +1,4 @@
-// Copyright @ShortJS
+// Copyright @archetjs
 // Author: Abdul Hannan - https://abdul-hannan.vercel.app
 import { math } from "./math.js";
 

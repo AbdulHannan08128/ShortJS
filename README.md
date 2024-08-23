@@ -1,6 +1,6 @@
-# ShortJS
+# Archetjs
 
-ShortJS is a lightweight JavaScript library designed to streamline and simplify code, making development tasks more efficient and concise.
+Archetjs is a lightweight JavaScript library designed to streamline and simplify code, making development tasks more efficient and concise.
 
 ## Features
 
@@ -10,38 +10,38 @@ ShortJS is a lightweight JavaScript library designed to streamline and simplify 
 
 ## Installation
 
-You can install ShortJS via npm:
+You can install archetjs via npm:
 
-npm install shortjs
+npm install archetjs
 
 Or include it directly in your HTML:
 
-<script src="path/to/shortjs.min.js"></script>
+<script src="path/to/archetjs.min.js"></script>
 
 ## Usage
 
-ShortJS provides a collection of utility functions and shortcuts to help you write cleaner, more expressive code. Here's a basic example:
+archetjs provides a collection of utility functions and shortcuts to help you write cleaner, more expressive code. Here's a basic example:
 
-// Import ShortJS module
-import short from 'shortjs';
+// Import archetjs module
+import short from 'archetjs';
 
-// Use ShortJS functions
+// Use archetjs functions
 const result = short.sum(1, 2, 3, 4, 5);
 console.log(result); // Output: 15
 
 ## Documentation
 
-For detailed documentation and usage examples, please visit the ShortJS Documentation that will be published soon: [ShortJS Documentation](https://shortjs-docs.example.com)
+For detailed documentation and usage examples, please visit the archetjs Documentation that will be published soon: [archetjs Documentation](https://archetjs-docs.example.com)
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to ShortJS, please read our Contribution Guidelines: [Contribution Guidelines](CONTRIBUTING.md) before submitting a pull request.
+We welcome contributions from the community! If you'd like to contribute to archetjs, please read our Contribution Guidelines: [Contribution Guidelines](CONTRIBUTING.md) before submitting a pull request.
 
 ## License
 
-ShortJS is released under the MIT License. You are free to use, modify, and distribute this library in your projects, whether personal or commercial.
+archetjs is released under the MIT License. You are free to use, modify, and distribute this library in your projects, whether personal or commercial.
 
 ## Support
 
-If you have any questions, issues, or feature requests, please feel free to open an issue on GitHub: [Open an Issue](https://github.com/AbdulHannan08128/shortjs/issues). We're here to help!
+If you have any questions, issues, or feature requests, please feel free to open an issue on GitHub: [Open an Issue](https://github.com/AbdulHannan08128/archetjs/issues). We're here to help!
 
