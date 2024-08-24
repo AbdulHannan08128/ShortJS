@@ -1,16 +1,16 @@
 export default {
-  title: 'Loved by tech people',
+  title: 'Loved by Developers',
   items: [
     {
       name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
+      description: 'Founder of ArchetJS',
       avatar:
         'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “With ArchetJS, I am able to streamline my development process and
+          enhance code readability significantly. The flexibility and ease of
+          integration are top-notch.”
         </>
       ),
     },
@@ -20,9 +20,9 @@ export default {
       avatar: '/static/images/avatar2.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          “ArchetJS allows me to build robust and scalable applications with
+          minimal boilerplate. The library’s features and documentation saved me
+          a lot of time and effort.”
         </>
       ),
     },
@@ -32,9 +32,9 @@ export default {
       avatar: '/static/images/avatar3.jpg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          “ArchetJS provided us with an excellent foundation for our project.
+          Its clean architecture and well-documented components made the setup
+          process smooth and efficient.”
         </>
       ),
     },

@@ -77,7 +77,7 @@ const Home: NextPage = () => {
 
         <TestimonialsSection />
 
-        <PricingSection />
+        {/* <PricingSection /> */}
 
         <FaqSection />
       </Box>
@@ -97,30 +97,27 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Code Less
+                <Br /> Build More
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Archetjs is a lightweight <Em>Javascript library</Em>
+                <Br /> that helps you to build your code faster, readable and reliable <Br />{" "}
+                Build intuitive Javascript projects with speed.
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
-              <HStack pt="4" pb="12" spacing="8">
-                <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
-              </HStack>
 
-              <ButtonGroup spacing={4} alignItems="center">
-                <ButtonLink colorScheme="primary" size="lg" href="/signup">
-                  Sign Up
+              <ButtonGroup spacing={4} alignItems="center" marginTop={5}>
+                <ButtonLink colorScheme="primary" size="lg" href="/documentation">
+                  Documentation
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="/quick-start"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -135,7 +132,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
+                  Quick Start
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -174,37 +171,34 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Clean Code",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Archet.js provides a set of straightforward, developer-friendly functions, ensuring that your code remains clean and easy to maintain.",
             iconPosition: "left",
             delay: 0.6,
           },
           {
-            title: "Themable",
+            title: "Developer Friendly",
             icon: FiSliders,
-            description:
-              "Fully customize all components to your brand with theme support and style props.",
+            description: "Archet.js is designed with developers in mind, offering a simple API and extensive documentation to streamline your development process.",
             iconPosition: "left",
             delay: 0.8,
           },
           {
-            title: "Composable",
+            title: "Lightweight",
             icon: FiGrid,
-            description:
-              "Compose components to fit your needs and mix them together to create new ones.",
+            description: "Archet.js is a lightweight library that allows you to compose and customize components effortlessly, keeping your applications fast and responsive.",
             iconPosition: "left",
             delay: 1,
           },
           {
             title: "Productive",
             icon: FiThumbsUp,
-            description:
-              "Designed to reduce boilerplate and fully typed, build your product at speed.",
+            description: "Built to minimize boilerplate code and fully typed, Archet.js helps you develop applications rapidly and efficiently.",
             iconPosition: "left",
             delay: 1.1,
           },
-        ]}
+        ]}        
         reveal={FallInPlace}
       />
     </Box>
@@ -212,17 +206,16 @@ const HeroSection: React.FC = () => {
 };
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard("yarn add @saas-ui/react");
+  const { value, onCopy, hasCopied } = useClipboard("yarn add @archetjs/core");
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Core features">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            Get started with <Em>Archet.js</Em> using our <Em>lightweight</Em> and <Em>developer-friendly</Em> features. 
+            Easily integrate with popular tools and frameworks while enjoying a seamless development experience. 
+            Archet.js comes with a rich set of features designed to streamline your workflow and enhance productivity.
           </Text>
 
           <Flex
@@ -241,7 +234,7 @@ const HighlightsSection = () => {
                 yarn add
               </Text>{" "}
               <Text color="cyan.300" display="inline">
-                @saas-ui/react
+                @archetjs/core
               </Text>
             </Box>
             <IconButton
@@ -256,11 +249,10 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+      <HighlightsItem title="Strong foundation">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          Archet.js is built on robust, time-tested principles, providing a solid foundation for your projects. 
+          We leverage established tools and modern practices to ensure that Archet.js integrates seamlessly into your workflow.
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
@@ -269,37 +261,35 @@ const HighlightsSection = () => {
         avatar="/static/images/avatar.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “Saas UI helped us set up a beautiful modern UI in no time. It saved us
-        hundreds of hours in development time and allowed us to focus on
-        business logic for our specific use-case from the start.”
+        “Archet.js has significantly accelerated our development process. The clean and intuitive API allowed us to focus on our core business logic without getting bogged down by boilerplate code. A game-changer for our team!”
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="Get ahead with essential tools"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+          Archet.js covers all your essential development needs so you can focus on crafting unique features for your project. 
+          With support for various development aspects, it ensures a smooth start and a productive development journey.
         </Text>
         <Wrap mt="8">
           {[
-            "authentication",
-            "navigation",
-            "crud",
-            "settings",
-            "multi-tenancy",
-            "layouts",
-            "billing",
-            "a11y testing",
-            "server-side rendering",
+            "component composition",
+            "API integration",
+            "state management",
+            "responsive design",
+            "performance optimization",
             "documentation",
-            "onboarding",
-            "storybooks",
-            "theming",
-            "upselling",
-            "unit testing",
-            "feature flags",
-            "responsiveness",
+            "testing",
+            "modular architecture",
+            "theme customization",
+            "error handling",
+            "analytics integration",
+            "user authentication",
+            "accessibility",
+            "dynamic routing",
+            "form handling",
+            "internationalization",
+            "performance monitoring",
           ].map((value) => (
             <Tag
               key={value}
@@ -317,6 +307,7 @@ const HighlightsSection = () => {
   );
 };
 
+
 const FeaturesSection = () => {
   return (
     <Features
@@ -329,15 +320,16 @@ const FeaturesSection = () => {
           as="p"
         >
           Not your standard
-          <Br /> dashboard template.
+          <Br /> development toolkit.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Archet.js offers a versatile set of tools designed to streamline and
+          enhance your development process.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Use it as a powerful foundation for your projects or to enhance your
+          existing applications with cutting-edge features.
         </>
       }
       align="left"
@@ -345,69 +337,70 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Components.",
+          title: "Flexible Architecture",
           icon: FiBox,
           description:
-            "All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.",
+            "Archet.js provides a highly flexible architecture that adapts to various project needs. Easily customize and extend components to fit your specific requirements.",
           variant: "inline",
         },
         {
-          title: "Starterkits.",
+          title: "Integrated Solutions",
           icon: FiLock,
           description:
-            "Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.",
+            "Built-in integrations with essential tools and services streamline your development process. Whether it's authentication, data management, or UI enhancements, Archet.js has you covered.",
           variant: "inline",
         },
         {
-          title: "Documentation.",
+          title: "Comprehensive Documentation",
           icon: FiSearch,
           description:
-            "Extensively documented, including storybooks, best practices, use-cases and examples.",
+            "Access extensive documentation with detailed examples, best practices, and use-cases. Archet.js ensures you have all the resources needed to make the most out of its features.",
           variant: "inline",
         },
         {
-          title: "Onboarding.",
+          title: "Seamless Onboarding",
           icon: FiUserPlus,
           description:
-            "Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.",
+            "Archet.js simplifies user onboarding with built-in tools for creating interactive tours, tooltips, and onboarding guides to enhance user experience from the start.",
           variant: "inline",
         },
         {
-          title: "Feature flags.",
+          title: "Advanced Feature Management",
           icon: FiFlag,
           description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
+            "Manage and toggle features effortlessly using Archet.js's advanced feature management system. Easily implement feature flags and integrate with remote configuration services for dynamic control.",
           variant: "inline",
         },
         {
-          title: "Upselling.",
+          title: "Effortless Upgrades",
           icon: FiTrendingUp,
           description:
-            "Components and hooks for upgrade flows designed to make upgrading inside your app frictionless.",
+            "Design upgrade pathways that minimize friction with Archet.js's upgrade components. Smoothly guide users through new features and improvements without disrupting their experience.",
           variant: "inline",
         },
         {
-          title: "Themes.",
+          title: "Customizable Themes",
           icon: FiToggleLeft,
           description:
-            "Includes multiple themes with darkmode support, always have the perfect starting point for your next project.",
+            "Start with a variety of pre-built themes and easily customize them to match your project's branding. Archet.js supports dark mode and other visual preferences to fit any design needs.",
           variant: "inline",
         },
         {
-          title: "Generators.",
+          title: "Code Generators",
           icon: FiTerminal,
           description:
-            "Extend your design system while maintaininig code quality and consistency with built-in generators.",
+            "Utilize built-in code generators to streamline the creation of new components and maintain consistency across your design system. Archet.js helps you keep your codebase clean and organized.",
           variant: "inline",
         },
         {
-          title: "Monorepo.",
+          title: "Modular Codebase",
           icon: FiCode,
           description: (
             <>
-              All code is available as packages in a high-performance{" "}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
+              Archet.js is structured into modular packages, allowing you full
+              control to adapt and extend the toolkit as needed. Leverage a high-performance{" "}
+              <Link href="https://turborepo.com">Turborepo</Link> setup to manage
+              and optimize your development workflow efficiently.
             </>
           ),
           variant: "inline",
@@ -416,6 +409,8 @@ const FeaturesSection = () => {
     />
   );
 };
+
+
 
 const TestimonialsSection = () => {
   const columns = React.useMemo(() => {
@@ -468,10 +463,8 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Support us by becoming a stargazer! 🚀 ",
-        description:
-          '<img src="https://img.shields.io/github/stars/saas-js/saas-ui.svg?style=social&label=Star" />',
-        href: "https://github.com/saas-js/saas-ui",
+        title: "Support Us By Contributing To ArchetJS 🚀 ",
+        href: "https://github.com/AbdulHannan08128/archet.js/",
         action: false,
       },
     },

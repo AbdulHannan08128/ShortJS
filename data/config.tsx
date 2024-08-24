@@ -3,13 +3,11 @@ import { Link } from '@saas-ui/react'
 import { NextSeoProps } from 'next-seo'
 import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { FiCheck } from 'react-icons/fi'
-import { Logo } from './logo'
 
 const siteConfig = {
-  logo: Logo,
   seo: {
-    title: 'Saas UI',
-    description: 'The React component library for startups',
+    title: 'ArchetJS',
+    description: 'A Lightweight JavaScript Library That Enhances Your Development Process with Flexibility and Efficiency',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -28,12 +26,12 @@ const siteConfig = {
         label: 'FAQ',
       },
       {
-        label: 'Login',
-        href: '/login',
+        label: 'Quick Start',
+        href: '/quick-start',
       },
       {
-        label: 'Sign Up',
-        href: '/signup',
+        label: 'Documentation',
+        href: '/documentation',
         variant: 'primary',
       },
     ],
@@ -41,50 +39,46 @@ const siteConfig = {
   footer: {
     copyright: (
       <>
-        Built by{' '}
-        <Link href="https://twitter.com/Pagebakers">Eelco Wiersma</Link>
+        &copy; {new Date().getFullYear()} ArchetJS. All rights reserved.
       </>
     ),
     links: [
       {
-        href: 'mailto:hello@saas-ui.dev',
+        href: 'mailto:hello@archetjs.dev',
         label: 'Contact',
       },
       {
-        href: 'https://twitter.com/saas_js',
+        href: 'https://twitter.com/archet_js',
         label: <FaTwitter size="14" />,
       },
       {
-        href: 'https://github.com/saas-js/saas-ui',
+        href: 'https://github.com/archet-js/archetjs',
         label: <FaGithub size="14" />,
       },
     ],
   },
   signup: {
-    title: 'Start building with Saas UI',
+    title: 'Start building with ArchetJS',
     features: [
       {
         icon: FiCheck,
-        title: 'Accessible',
-        description: 'All components strictly follow WAI-ARIA standards.',
+        title: 'Flexible Architecture',
+        description: 'ArchetJS offers a highly adaptable architecture for diverse project needs, allowing for easy customization and extension.',
       },
       {
         icon: FiCheck,
-        title: 'Themable',
-        description:
-          'Fully customize all components to your brand with theme support and style props.',
+        title: 'Integrated Solutions',
+        description: 'Built-in integrations with essential tools streamline your development workflow, including authentication and data management.',
       },
       {
         icon: FiCheck,
-        title: 'Composable',
-        description:
-          'Compose components to fit your needs and mix them together to create new ones.',
+        title: 'Comprehensive Documentation',
+        description: 'Extensive documentation with detailed examples and best practices ensures you have the resources needed to leverage ArchetJS effectively.',
       },
       {
         icon: FiCheck,
-        title: 'Productive',
-        description:
-          'Designed to reduce boilerplate and fully typed, build your product at speed.',
+        title: 'Seamless Onboarding',
+        description: 'Create user-friendly onboarding experiences with interactive tours and hints to enhance user engagement from the start.',
       },
     ],
   },
