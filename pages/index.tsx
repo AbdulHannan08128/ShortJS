@@ -463,7 +463,7 @@ export async function getStaticProps() {
   return {
     props: {
       announcement: {
-        title: "Support Us By Contributing To ArchetJS 🚀 ",
+        title: "Support Us by Contributing to ArchetJS 🚀 ",
         href: "https://github.com/AbdulHannan08128/archet.js/",
         action: false,
       },
