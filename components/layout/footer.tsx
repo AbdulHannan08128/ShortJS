@@ -7,7 +7,8 @@ import {
   Stack,
   Flex,
   HStack,
-} from '@chakra-ui/react'
+} from '@chakra-ui/react';
+import Image from 'next/image';
 
 import { Link, LinkProps } from '@saas-ui/react'
 
@@ -26,7 +27,9 @@ export const Footer: React.FC<FooterProps> = (props) => {
           <Stack spacing="8">
             <Stack alignItems="flex-start">
               <Flex>
-                <Box as={siteConfig.logo} flex="1" height="32px" />
+              <Box height="40px" mt="-4px" overflow={'hidden'}>
+      <Image src={'/logo/500x150-3.png'} alt='ArchetJS' width={150} height={50} />
+    </Box>
               </Flex>
               <Text fontSize="md" color="muted">
                 {siteConfig.seo.description}

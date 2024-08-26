@@ -8,6 +8,7 @@ const siteConfig = {
   seo: {
     title: 'ArchetJS',
     description: 'A Lightweight JavaScript Library That Enhances Your Development Process with Flexibility and Efficiency',
+    logo:'/logo/500x500.png'
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
